@@ -37,6 +37,7 @@ Our task is to create a Wordpress clone for building Blogs. At this platform, th
 ​
 # Visitors
 ​
+<<<<<<< HEAD
 - ### Visitors should be able to visit the site and read blog posts about different categories.
 - ### Visitors should be able at all times to search for specific texts in all posts
 - ### There should be a search results page
@@ -45,6 +46,16 @@ Our task is to create a Wordpress clone for building Blogs. At this platform, th
 - ### There should be pagination
 - ### filter posts by category
 - ### Visitors when reading a post should be able to:
+=======
+-  Visitors should be able to visit the site and read blog posts about different categories.
+-  Visitors should be able at all times to search for specific texts in all posts
+-  There should be a search results page
+-  There should be a "page not found" page
+-  There should be a "tags" component and display tags that when clicked the visitor should see all posts that are related to that tag
+-  There should be pagination
+-  filter posts by category
+- ## Visitors when reading a post should be able to:
+>>>>>>> 5e592c8a5850af90279409f1e30e78fd95646617
    1. Add a comment to the post
    2. Rate the post
 ​
