@@ -21,7 +21,7 @@ function Home() {
             />
           </div>
           <div class="col-lg-8" >
-            <h1 class="font-weight-light">Home</h1>
+            <h1 class="font-weight-light">Blog Home Page</h1>
             
             <div><MDBCarousel showControls showIndicators>
       <MDBCarouselInner>
