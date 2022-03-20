@@ -7,7 +7,7 @@ function Navigation() {
       <nav className="navbar navbar-expand navbar-dark bg-info">
         <div className="container">
           <NavLink className="navbar-brand" to="/">
-            Galactic Travels GmbH
+            WordPress Blog
           </NavLink>
           <div>
             <ul className="navbar-nav ml-auto">
