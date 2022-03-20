@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+# wordpress-clone-for-building-blogs
+Our task is to create a Wordpress clone for building Blogs. At this platform, there should be administrators and visitors. ​ Administrators are system users than can write posts and configure the way the website look. ​ Visitors can only read posts, rate posts, add comments to the posts etc.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Administrators
+​
+### You need to create an administrator area where only administrators have access.
+### Post authors (administrators) should be able to login to the administration area and do the following tasks:
+​
+***Administrators/authors should be able to:***
+1. Login/logout from the administrators area
+2. Recover their forgotten password
+3. Change their password
+4. Create a new category
+5. Delete a category (only when a category has no posts attached to it)
+6. Edit a category
+7. List all categories
+8. Create a new post. When creating a new post, user should be able to:
+   1. add a title
+   2. add a subtitle
+   3. add main post text using a WYSIWYG (What You See Is What You Get) editor so users could add images and videos (rich text)
+      1. An example of a WYSIWYG editor is here: https://www.npmjs.com/package/tinymce
+   4. add meta tags such as description and author
+   5. add custom tags so a visitor can select a tag and see all posts that are related to that tag
+   6. add the main image for that post
+   7. choose at which categories this post should belong to
+9. Delete a post
+10. Update a post. When viewing/editing a post administrators should be able to:
+   1. edit each field from the post
+   2. view the comments for the post
+   3. delete a comment for that post
+11. List all posts
+12. Search for posts that contain certain text
+13. Filter posts by category
+​
+` `  
+` `  
+​
+# Visitors
+​
+-  Visitors should be able to visit the site and read blog posts about different categories.
+-  Visitors should be able at all times to search for specific texts in all posts
+-  There should be a search results page
+-  There should be a "page not found" page
+-  There should be a "tags" component and display tags that when clicked the visitor should see all posts that are related to that tag
+-  There should be pagination
+-  filter posts by category
+- ## Visitors when reading a post should be able to:
+   1. Add a comment to the post
+   2. Rate the post
+​
+​
+​
+There should be a home page with all post categories
+There should be a contact page where visitors could send emails to the Blog Authors
+​
+` `  
+` `  
+​
+# Documentation 
+​
+### Create documentation for your APIs. E.g.
+1. https://github.com/HackerNews/API
+2. https://openweathermap.org/current
+​
+​
+` `  
+` `  
+​
+# Advanced:
+1. Visitors see related posts at the end of each post
+2. Administrators should be able to create the menu and the client app should render the menu dynamically
+Collapse
