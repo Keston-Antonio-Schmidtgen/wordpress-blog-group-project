@@ -32,3 +32,5 @@ ReactDOM.render(
 );
 
 serviceWorker.unregister();
+
+/* So, after creating all the components, we need to import them all to the index.js file. Here we will declare all the routes in our app. */
