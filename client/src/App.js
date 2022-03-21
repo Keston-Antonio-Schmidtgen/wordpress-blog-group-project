@@ -7,3 +7,6 @@ function App()  {
 }
 
 export default App;
+
+
+/* We really don’t need the App.js file which is created as default with create-react-app. So we can delete it. */
